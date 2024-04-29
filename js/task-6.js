@@ -71,6 +71,8 @@ btnDestroy.style.width = "120px";
 btnDestroy.style.backgroundColor = "#FF4E4E";
 
 
+
+//. фокус - ховер для черіоноїкнопки
 function focusButton() {
   btnDestroy.focus(); 
   btnDestroy.style.backgroundColor = "#FF7070"; 
