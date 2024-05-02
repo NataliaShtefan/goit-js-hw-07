@@ -14,6 +14,7 @@ if (elements.email.value === "" || elements.password.value === "") {
             password: elements.password.value.trim(),
         }
         console.log(info)
+        form.reset()  
 }
-form.reset()  // очищення після висилання даних
+ // очищення після висилання даних
 }

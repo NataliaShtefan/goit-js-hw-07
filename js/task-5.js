@@ -12,8 +12,7 @@ btn.addEventListener("click", changeBodyColor)
 
  function changeBodyColor () {
   document.body.style.backgroundColor = getRandomHexColor();
-  let randomColor =getRandomHexColor()
-  colorSpan.textContent = randomColor
+  colorSpan.textContent = `${getRandomHexColor()}`;
 }
 
 const container = document.querySelector(".widget")
